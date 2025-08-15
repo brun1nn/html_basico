@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <h1>Formulário de cadastro</h1>
+
+    <form action="processar.php" method="post">
+        <!--Campo de texto simples-->
+        <label for="nome">Nome completo:</label>
+        <br>
+        <input type="text" id="nome" name="nome" required>
+        <br>
+
+        <!--Campo de texto simples-->
+        <label for="email">E-mail:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <!--Campo de texto simples-->
+        <label for="senha">Senha:</label>
+        <br>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+        <br>
+<hr>
+        <!--Botão de Opção Única-->
+        <label>Sexo:</label><br>
+        <input type="radio" id="masculino" name="sexo" value="M" required>
+        <label for="masculino">Masculino</label><br>
+
+        <input type="radio" name="sexo" id="feminino" value="F">
+        <label for="feminino">Feminino</label><br><br>
+<hr>
+        <!--Botão de Opções-->
+        <label>Interesses</label><br>
+
+        <input type="checkbox" id="programção" name="interesses" value="programação" required>
+        <label for="programação">Programação</label><br>
+
+        <input type="checkbox" id="design" name="interesses" value="design">
+        <label for="design">Design</label><br>
+
+        <input type="checkbox" id="esportes" name="interesses" value="esportes">
+        <label for="esportes">Esportes</label><br><br>
+<hr>
+        <!--Lista de seleção (select)-->
+        <label for="cidade">Cidade</label><br>
+        <select name="cidade" id="cidade">
+            <option value="sp">São Paulo</option>
+            <option value="sc">São Carlos</option>
+            <option value="scs">São Caetano do Sul</option>
+            <option value="sv">São Vincente</option>
+            <option value="ss">São Sebastião</option>
+            <option value="sjc">São José dos Campos</option>
+        </select><br><br>
+<hr>
+        <!--Área de texto-->
+        <label for="comentarios">Comentários</label><br>
+        <textarea name="comentarios" id="comentarios" rows="4" cols="50"></textarea><br><br>
+<hr>
+        <!--Campo de arquivo-->
+        <label for="foto">Foto:</label><br>
+        <input type="file" name="foto" id="foto"><br><br>
+
+        <!--Botão do formulário-->
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        
+    </form>
+
+</body>
+</html>
