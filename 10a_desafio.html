@@ -1,9 +1,69 @@
-<!-- Desafio 2 digitação (Aqui) -->
- 
-<!-- Obs: Ler (10a_desafio.md) para orientações -->
-<!-- Imagem de como deve ficar pronto na pasta assets (desafio 2.jpg) -->
-
-<!-- 📱 🚀 📺 📧 emojis para usar no projeto -->
-
-
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNews Today</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1>TechNews📰Today</h1>
+            <p>🌍Descubra o que está ocorrendo ao redor do mundo neste exato momento!🌍</p>
+            <hr>
+        </section>
+        <section>
+            <h3><em>Navegue pelas notícias:</em></h3>
+            <label for="busca"></label>
+            <input type="text" id="busca" placeholder="Ultimas Notícias⏱">
+            <button type="submit">Buscar</button>
+            <p><em><strong>Filtrar</strong></em></p>
+            <select name="Assunto" id="Assunto">
+                
+                <option value="trabalho">De hoje</option>
+                <option value="trabalho">Desta semana</option>
+                <option value="trabalho">Deste mês</option>
+            </select><br><br>
+            <details>
+                <summary><strong><em>Nichos</em></strong></summary>
+                <ul>
+                    <li><a href="#politica">Política📋</a></li>
+                    <li><a href="#ciencias">Ciências🧑‍🔬</a></li>
+                </ul>
+            </details>
+            <hr>
+        </section>
+    </header>
+    <main>
+        <article>
+            <header>
+                <blockquote><h2 id="politica">Política📋</h2></blockquote>
+                <p>Uso de <strong>tecnologia</strong> amplia participação direta da população no acesso a serviços e políticas públicas.</p>
+                <img src="assets/Tecno-Política.jpeg" alt="Foto SNPS/SGPR" width="500"><br>
+            </header>
+            <footer>
+                <p><em>Comunicações e Transparência Pública</em></p><br>
+            </footer>
+        </article>
+        <hr>
+        <article>
+            <header>
+                <blockquote><h2 id="ciencias">Ciências🧑‍🔬</h2></blockquote>
+                <p>Impacto da exposição precoce à internet em <strong>jovens.</strong></p><br>
+                <iframe title="R7 Video Player" src="https://noticias.r7.com/player/b0f9d929-3bf9-47bd-ba3e-d38a9d4661ee/" width="500" height="400" frameborder="0" loading="lazy" allowfullscreen></iframe><br>
+            </header>
+            <footer>
+                <p><em><strong>Psiquiatra Guido Boabaid</strong></em></p><br>
+                <hr>
+            </footer>
+        </article>
+    </main>
+    <footer><br>
+        <p><strong>&copy; 2025 TechNews Today. Desenvolvido durante o curso do SENAI</strong></p>
+        <p>
+            <strong>Nos mande um recado!: <a href="mailto:TechNewsToday@hotmail.com" target="_blank">Nosso e-mail</a><br><br>
+            Nos mande um recado!: <a href="tel: 55 11 98765-4321" target="_blank">+(11) 98765-4321</a></strong>
+        </p>
+    </footer>
+</body>
+</html>

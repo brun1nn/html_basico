@@ -33,6 +33,7 @@ Criar uma página HTML de **no máximo 50 linhas** que apresente um portal de no
 - ✅ Formulário funcional
 - ✅ Estrutura HTML válida e organizada
 
+
 ## 💡 Dicas
 
 - Use `<article>` para notícias individuais
